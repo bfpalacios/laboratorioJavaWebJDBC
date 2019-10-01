@@ -18,7 +18,7 @@ public class CategoriaDAO extends BaseDAO {
 	public Collection<Categoria> buscarPorNombre(String nombre)
 			throws DAOExcepcion {
 		
-		
+		//ESTO SE CAMBIARA POR LLAMADAS A STORED PROCEDURE
 		String query = "select id_categoria, nombre, descripcion from categoria where nombre like ?";
 		Collection<Categoria> lista = new ArrayList<Categoria>();
 		

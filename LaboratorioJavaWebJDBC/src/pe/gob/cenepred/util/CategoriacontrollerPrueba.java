@@ -15,7 +15,7 @@ public class CategoriacontrollerPrueba {
 		CategoriaController categoriaController = new CategoriaController();
 		
 		try {
-			Collection<Categoria> listaCategoria = categoriaController.buscarPorNombre("Farma") ;
+			Collection<Categoria> listaCategoria = categoriaController.buscarPorNombre("FAR") ;
 			
 			for (Categoria categoria:listaCategoria) {
 
